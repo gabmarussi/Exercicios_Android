@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AjusteSalarial</string>
+
+    <string name="textTitulo">Cálculo de Salário</string>
+    <string name="textHint">Digite seu salário (R$)</string>
+
+    <string name="textSubtitle">Escolha um Percentual:</string>
+    <string name="porcentagem_40">Aumento de 40%</string>
+    <string name="porcentagem_45">Aumento de 45%</string>
+    <string name="porcentagem_50">Aumento de 50%</string>
+
+    <string name="btnCalcular">Mostrar novo Salário</string>
+    <string name="resultSalario">Salário Reajustado: R$ 0,00</string>
+</resources>
