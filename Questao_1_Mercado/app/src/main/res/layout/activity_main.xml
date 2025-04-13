@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textTitulo"
+        android:textColor="@color/textPrimary"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/textSubtitle"
+        android:textColor="@color/textSecondary"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp" />
+
+    <CheckBox
+        android:id="@+id/checkArroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/arroz"
+        android:textColor="@color/textPrimary"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkLeite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leite"
+        android:textColor="@color/textPrimary"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkCarne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carne"
+        android:textColor="@color/textPrimary"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkFeijao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feijao"
+        android:textColor="@color/textPrimary"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkRefrigerante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/refrigerante"
+        android:textColor="@color/textPrimary"
+        android:textSize="18sp"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalcular"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/textTotal"
+        android:textSize="20sp"
+        android:textColor="@color/textPrimary"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
