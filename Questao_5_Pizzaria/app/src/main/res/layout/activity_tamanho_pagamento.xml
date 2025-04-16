@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FFFFFF"
+    tools:context=".TamanhoPagamentoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha o tamanho da pizza:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/radioTamanho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/radioPequena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pequena - R$20" />
+            <RadioButton android:id="@+id/radioMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Média - R$30" />
+            <RadioButton android:id="@+id/radioGrande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grande - R$40" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Método de pagamento:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/radioPagamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/radioDinheiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinheiro" />
+            <RadioButton android:id="@+id/radioCartao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cartão" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnResumo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Ver Resumo do Pedido"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>
