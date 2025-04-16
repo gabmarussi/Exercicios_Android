@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".PedidoActivity">
+
+    <ImageView
+        android:id="@+id/imgCardapio"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:contentDescription="Imagem do cardápio"
+        android:src="@drawable/cardapio" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o Seu Nome"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputNome"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/groupLanches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp">
+
+        <RadioButton
+            android:id="@+id/lanche1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="X-Burguer" />
+        <RadioButton
+            android:id="@+id/lanche2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="X-Salada" />
+        <RadioButton
+            android:id="@+id/lanche3"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="X-Bacon" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Pedido"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>
