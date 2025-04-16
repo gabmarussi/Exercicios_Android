@@ -10,7 +10,8 @@
 
 ## 📦 Sobre a Atividade
 
-Este repositório contém os projetos desenvolvidos como parte da **Atividade 02** da disciplina de PDM.  
+Este repositório contém os projetos desenvolvidos como parte da **Atividade 02** da disciplina de PDM.
+
 A atividade foi composta por 5 questões, e cada uma delas exigia a construção de um aplicativo Android específico, utilizando componentes como `CheckBox`, `RadioButton`, `TextInputLayout`, `ImageView`, `Button`, entre outros.
 
 Cada projeto está separado por pasta e nomeado de acordo com sua questão, contendo o código-fonte Java, layouts XML, recursos visuais e o aplicativo executável (APK).
@@ -26,4 +27,10 @@ Cada projeto está separado por pasta e nomeado de acordo com sua questão, cont
 
 Cada projeto foi desenvolvido utilizando **Java** e **Android Studio**.
 
-Para visualizar o funcionamento de cada app, basta baixar o APK na pasta da questao e abrir o APK. Ou baixe e abra os diretórios correspondentes e importe no Android Studio.
+**Como Visualizar/Abrir**
+
+- **Celular (Android)**
+Para visualizar o funcionamento de cada app, basta baixar o APK na pasta da questao e abrir o APK usando seu dispositivo Android. 
+
+- **Computador**
+Para visualizar o funchonanento, baixe a pasta da questão e abra os diretórios correspondente importando os no Android Studio para poder usar o simulador corretamente.
