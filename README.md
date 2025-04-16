@@ -18,19 +18,19 @@ Cada projeto está separado por pasta e nomeado de acordo com sua questão, cont
 
 ## ✅ Questões | Projetos Incluídos
 
-**Questões - Descrições**
-01 - Sistema de compras com CheckBoxes para seleção de produtos.
-02 - Aplicativo para reajuste salarial com escolha de percentual via RadioButtons.
-03 - Cadastro de clientes com nome e imagem de confirmação.
-04 - App de pedidos para lanchonete (Lanche Fácil) com nome e tipo de lanche.
-05 - Simulador de pedido de pizzaria com sabores, tamanho, pagamento e resumo.
+**Questões - Descrições**  
+01 - Sistema de compras com CheckBoxes para seleção de produtos.  
+02 - Aplicativo para reajuste salarial com escolha de percentual via RadioButtons.  
+03 - Cadastro de clientes com nome e imagem de confirmação.  
+04 - App de pedidos para lanchonete (Lanche Fácil) com nome e tipo de lanche.  
+05 - Simulador de pedido de pizzaria com sabores, tamanho, pagamento e resumo.  
 
 Cada projeto foi desenvolvido utilizando **Java** e **Android Studio**.
 
 **Como Visualizar/Abrir**
 
-- **Celular (Android)**
+- **Celular (Android)**  
 Para visualizar o funcionamento de cada app, basta baixar o APK na pasta da questao e abrir o APK usando seu dispositivo Android. 
 
-- **Computador**
+- **Computador**  
 Para visualizar o funchonanento, baixe a pasta da questão e abra os diretórios correspondente importando os no Android Studio para poder usar o simulador corretamente.
